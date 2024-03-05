@@ -38,9 +38,16 @@
     height: 200px;
     width: auto;
     margin-left: 300px;
-    /* Your animation here
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: spin 2s linear 0s infinite;
 }
 
 @keyframes spin {
-    /* Set up your keyframe animation here
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
+
