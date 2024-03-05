@@ -22,7 +22,12 @@
     height: 200px;
     width: auto;
     margin-left: 200px;
-    /* Your code here */
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 0;
+}
+.astronaut_svg:hover{
+    transform: translate(100px, 0px);
 }
 
 /* Create astronaut hover animation here
